@@ -9,9 +9,11 @@ import (
 	"time"
 
 	"github.com/gofiber/fiber/v2"
+	"github.com/thrasher-corp/gocryptotrader/config"
 	"nadhi.dev/sarvar/fun/ai"
 	"nadhi.dev/sarvar/fun/auth"
 	vela "nadhi.dev/sarvar/fun/bucket"
+	"nadhi.dev/sarvar/fun/config"
 	"nadhi.dev/sarvar/fun/server"
 	sheet "nadhi.dev/sarvar/fun/sheets"
 )
@@ -161,7 +163,13 @@ server.Route.Post("/api/v1/sheets/create", func(c *fiber.Ctx) error {
 
 // getGeminiKey retrieves the Gemini API key
 func getGeminiKey() string {
-	return "AIzaSyAcjAEDWdKqbOJBGfkkwd6TkS6XdqHcdcM"
+	value3 := config.GetConfigValue("AI_API")
+	if value3 != nil {
+		if key, ok := value3.(string); ok && key != "" {
+			return key
+		}
+	}
+	return ""
 }
 
 // getGeminiModel returns the model to use
