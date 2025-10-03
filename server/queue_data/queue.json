@@ -1,0 +1,205 @@
+{
+  "sheet-1758970524796660000": {
+    "id": "sheet-1758970524796660000",
+    "user_id": "Nadhila",
+    "prompt": "{\"subject\":\"Computer science 2's complement Pearson Edexcel IGCSE\",\"course\":\"2's Complement Representation in Binary: An Introduction\",\"description\":\"This course provides an introductory look into the 2's complement representation of binary numbers, a fundamental concept in computer science. You'll learn how this method allows computers to efficiently represent both positive and negative integers, and how to perform arithmetic operations on them. By the end of this course, you'll be able to convert numbers to and from 2's complement, and understand its importance in digital systems.\",\"tags\":[\"computer science\",\" binary\",\" 2's complement\",\" representation\",\" IGCSE\",\" Pearson Edexcel\",\" number systems\"],\"curriculum\":\"Pearon's Edexcel IGCSE\",\"specialInstructions\":\"nothing\"}",
+    "status": "retrying",
+    "created_at": "2025-09-27T16:25:24.796763+05:30",
+    "updated_at": "2025-09-27T16:26:13.812564+05:30",
+    "connection_created": "2025-09-27T16:25:24.796763+05:30",
+    "retries": 2,
+    "max_retry": 3,
+    "result": "failed to parse LaTeX: could not find output content or recognize LaTeX structure"
+  },
+  "sheet-1758970857045901000": {
+    "id": "sheet-1758970857045901000",
+    "user_id": "Nadhila",
+    "prompt": "{\"subject\":\"Computer Science Pearons Edexcel IGCSE\",\"course\":\"IGCSE Computer Science: An Introduction to Computation and Algorithms\",\"description\":\"This IGCSE Computer Science course introduces you to the fundamental concepts of computation and algorithms. You'll explore how computers work, learn to think computationally, and understand how to design and represent solutions to problems using algorithms. This course will equip you with the essential knowledge and skills for further study in computer science.\",\"tags\":[\"computer science\",\" IGCSE\",\" computation\",\" algorithms\",\" programming\"],\"curriculum\":\"Pearson's Edexcel IGCSE\",\"specialInstructions\":\"non\"}",
+    "status": "retrying",
+    "created_at": "2025-09-27T16:30:57.046077+05:30",
+    "updated_at": "2025-09-27T16:31:39.324724+05:30",
+    "connection_created": "2025-09-27T16:30:57.046077+05:30",
+    "retries": 2,
+    "max_retry": 3
+  },
+  "sheet-1758971245286150000": {
+    "id": "sheet-1758971245286150000",
+    "user_id": "Nadhila",
+    "prompt": "{\"subject\":\"Computer Science 2's complement IGCSE\",\"course\":\"Computer Science: 2's Complement and Binary Arithmetic\",\"description\":\"This course delves into the crucial concept of 2's complement, a fundamental method for representing signed integers in computer systems. You'll explore how 2's complement works and then apply this knowledge to master binary arithmetic, including addition, subtraction, and the handling of overflow. This is perfect for IGCSE Computer Science students.\",\"tags\":[\"computer science\",\" binary\",\" 2's complement\",\" arithmetic\",\" igcse\"],\"curriculum\":\"Pearon's Edexcel IGCSE\",\"specialInstructions\":\"non\"}",
+    "status": "retrying",
+    "created_at": "2025-09-27T16:37:25.286368+05:30",
+    "updated_at": "2025-09-27T16:38:27.202476+05:30",
+    "connection_created": "2025-09-27T16:37:25.286368+05:30",
+    "retries": 2,
+    "max_retry": 3,
+    "result": "AI generation failed: generation failed: context deadline exceeded"
+  },
+  "sheet-1758971503154852000": {
+    "id": "sheet-1758971503154852000",
+    "user_id": "Nadhila",
+    "prompt": "{\"subject\":\" Computer Science Pearson's Edexcel IGCSE\",\"course\":\"IGCSE Computer Science: Pearson Edexcel\",\"description\":\"IGCSE Computer Science: Pearson Edexcel 2's complement.\",\"tags\":[\"computer science\",\" IGCSE\",\" Edexcel\",\" 2's complement\",\" binary\",\" data representation\"],\"curriculum\":\"Pearon's Edexcel IGCSE \",\"specialInstructions\":\"non\"}",
+    "status": "retrying",
+    "created_at": "2025-09-27T16:41:43.155093+05:30",
+    "updated_at": "2025-09-27T16:42:35.802175+05:30",
+    "connection_created": "2025-09-27T16:41:43.155093+05:30",
+    "retries": 2,
+    "max_retry": 3,
+    "result": "PDF conversion failed: exit status 1"
+  },
+  "sheet-1758971878281020000": {
+    "id": "sheet-1758971878281020000",
+    "user_id": "Nadhila",
+    "prompt": "{\"subject\":\"Computer Science Pearson's Edexcel IGCSE\",\"course\":\"IGCSE Computer Science: A Comprehensive Exploration\",\"description\":\"This IGCSE Computer Science course provides a thorough introduction to the fundamental principles of computer science. You'll explore topics like computer systems, networks, data representation, programming, and computational thinking, preparing you for further study and real-world applications. This course utilizes the Pearson Edexcel syllabus, equipping you with the knowledge and skills needed to succeed in your IGCSE Computer Science examination.\",\"tags\":[\"computer science\",\" igcse\",\" pearson edexcel\",\" programming\",\" computer systems\",\" networks\",\" data representation\"],\"curriculum\":\"Pearson's Edexcel IGCSE \",\"specialInstructions\":\"non\"}",
+    "status": "retrying",
+    "created_at": "2025-09-27T16:47:58.281318+05:30",
+    "updated_at": "2025-09-27T16:48:39.229078+05:30",
+    "connection_created": "2025-09-27T16:47:58.281318+05:30",
+    "retries": 2,
+    "max_retry": 3,
+    "result": "PDF conversion failed: exit status 1"
+  },
+  "sheet-1758972274368992000": {
+    "id": "sheet-1758972274368992000",
+    "user_id": "Nadhila",
+    "prompt": "{\"subject\":\"Computer Science Pearson's edexcel IGCSE \",\"course\":\"IGCSE Computer Science: Pearson Edexcel Exam Preparation\",\"description\":\"This course is designed to help you prepare for the Pearson Edexcel IGCSE Computer Science exam. You'll review key concepts, practice exam-style questions, and develop effective strategies to maximize your score on the final assessment. This preparation will cover all areas of the IGCSE Computer Science syllabus, including computational thinking, programming, and computer systems.\",\"tags\":[\"binary\"],\"curriculum\":\"Pearson's edexcel IGCSE\",\"specialInstructions\":\"non\"}",
+    "status": "retrying",
+    "created_at": "2025-09-27T16:54:34.369237+05:30",
+    "updated_at": "2025-09-27T16:56:20.651216+05:30",
+    "connection_created": "2025-09-27T16:54:34.369237+05:30",
+    "retries": 2,
+    "max_retry": 3,
+    "result": "PDF conversion failed: exit status 1"
+  },
+  "sheet-1758972650022266000": {
+    "id": "sheet-1758972650022266000",
+    "user_id": "Nadhila",
+    "prompt": "{\"subject\":\"Computer Science Pearon's Edexcel IGCSE 2's complementary\",\"course\":\"IGCSE Computer Science: Pearson Edexcel - Core Concepts and Complementary Topics\",\"description\":\"This course provides a comprehensive overview of the core concepts in IGCSE Computer Science, following the Pearson Edexcel syllabus. You'll learn essential topics such as computer systems, networks, and the impact of technology, along with complementary subjects that build on the core knowledge. The course will equip you with the foundational understanding and practical skills needed to succeed in your IGCSE Computer Science exam.\",\"tags\":[\"computer science\",\" IGCSE\",\" Pearson Edexcel\",\" core concepts\",\" complementary topics\",\" computing\"],\"curriculum\":\"Pearon's Edexcel IGCSE\",\"specialInstructions\":\"non\"}",
+    "status": "retrying",
+    "created_at": "2025-09-27T17:00:50.022539+05:30",
+    "updated_at": "2025-09-27T17:02:42.940494+05:30",
+    "connection_created": "2025-09-27T17:00:50.022539+05:30",
+    "retries": 2,
+    "max_retry": 3,
+    "result": "PDF conversion failed: exit status 1"
+  },
+  "sheet-1758972920075756000": {
+    "id": "sheet-1758972920075756000",
+    "user_id": "Nadhila",
+    "prompt": "{\"subject\":\"Computer science\",\"course\":\"Computer science\",\"description\":\"Computer science\",\"tags\":[\"Computer science\"],\"curriculum\":\"non\",\"specialInstructions\":\"non\"}",
+    "status": "retrying",
+    "created_at": "2025-09-27T17:05:20.076036+05:30",
+    "updated_at": "2025-09-27T17:07:18.061583+05:30",
+    "connection_created": "2025-09-27T17:05:20.076036+05:30",
+    "retries": 2,
+    "max_retry": 3,
+    "result": "PDF conversion failed: exit status 1"
+  },
+  "sheet-1758973448499084000": {
+    "id": "sheet-1758973448499084000",
+    "user_id": "Nadhila",
+    "prompt": "{\"subject\":\"Computer Science Binary\",\"course\":\"Computer Science Binary\",\"description\":\"Computer Science Binary\",\"tags\":[\"Computer Science Binary\"],\"curriculum\":\"Computer Science Binary\",\"specialInstructions\":\"non\"}",
+    "status": "retrying",
+    "created_at": "2025-09-27T17:14:08.499442+05:30",
+    "updated_at": "2025-09-27T17:15:06.511414+05:30",
+    "connection_created": "2025-09-27T17:14:08.499442+05:30",
+    "retries": 2,
+    "max_retry": 3,
+    "result": "PDF conversion failed: exit status 1"
+  },
+  "sheet-1758974010292640000": {
+    "id": "sheet-1758974010292640000",
+    "user_id": "Nadhila",
+    "prompt": "{\"subject\":\"Computer Science Binary\",\"course\":\"Computer Science Binary\",\"description\":\"Computer Science Binary\",\"tags\":[\"Computer Science Binary\"],\"curriculum\":\"Computer Science Binary\",\"specialInstructions\":\"Computer Science Binary\"}",
+    "status": "retrying",
+    "created_at": "2025-09-27T17:23:30.292893+05:30",
+    "updated_at": "2025-09-27T17:24:21.031567+05:30",
+    "connection_created": "2025-09-27T17:23:30.292893+05:30",
+    "retries": 2,
+    "max_retry": 3,
+    "result": "PDF conversion failed: exit status 1"
+  },
+  "sheet-1758974304743755000": {
+    "id": "sheet-1758974304743755000",
+    "user_id": "Nadhila",
+    "prompt": "{\"subject\":\"4 letter words for grade 4\",\"course\":\"4 letter words for grade 4\",\"description\":\"4 letter words for grade 4\",\"tags\":[\"4 letter words for grade 4\"],\"curriculum\":\"4 letter words for grade 4\",\"specialInstructions\":\"non\"}",
+    "status": "retrying",
+    "created_at": "2025-09-27T17:28:24.744051+05:30",
+    "updated_at": "2025-09-27T17:29:01.579041+05:30",
+    "connection_created": "2025-09-27T17:28:24.744051+05:30",
+    "retries": 1,
+    "max_retry": 3,
+    "result": "PDF conversion failed: exit status 1"
+  },
+  "sheet-1758977744245812000": {
+    "id": "sheet-1758977744245812000",
+    "user_id": "Nadhila",
+    "prompt": "{\"subject\":\"Mathematics\",\"course\":\"Calculus 101\",\"description\":\"Calculus 101 introduces students to the fundamental concepts of differential and integral calculus. This course covers limits, derivatives, and integrals of algebraic and trigonometric functions, along with their applications in problem-solving. Students will develop a strong foundation for further studies in mathematics, science, and engineering.\",\"tags\":[\"calculus\",\" mathematics\",\" derivatives\",\" integrals\",\" limits\",\" trigonometry\"],\"curriculum\":\"SAT\",\"specialInstructions\":\"Add watermark Nadhi.dev.\"}",
+    "status": "completed",
+    "created_at": "2025-09-27T18:25:44.246137+05:30",
+    "updated_at": "2025-09-27T18:26:31.938509+05:30",
+    "connection_created": "2025-09-27T18:25:44.246137+05:30",
+    "retries": 0,
+    "max_retry": 3,
+    "result": {
+      "metadata": {
+        "generated": "2025-09-27T18:26:30+05:30",
+        "source": "raw-content"
+      },
+      "pdf_url": "/vela/bucket/bucket/sheet-1758977744245812000.pdf"
+    }
+  },
+  "sheet-1758979115026341000": {
+    "id": "sheet-1758979115026341000",
+    "user_id": "Nadhila",
+    "prompt": "{\"subject\":\"DO NOT SEND ANYTHING\",\"course\":\"DO NOT SEND ANYTHING\",\"description\":\"DO NOT SEND ANYTHING\",\"tags\":[\"DO NOT SEND ANYTHING\"],\"curriculum\":\"DO NOT SEND ANYTHING\",\"specialInstructions\":\"DO NOT SEND ANYTHING\"}",
+    "status": "completed",
+    "created_at": "2025-09-27T18:48:35.026877+05:30",
+    "updated_at": "2025-09-27T18:49:21.910933+05:30",
+    "connection_created": "2025-09-27T18:48:35.026877+05:30",
+    "retries": 0,
+    "max_retry": 3,
+    "result": {
+      "metadata": {
+        "generated": "2025-09-27T18:49:20+05:30",
+        "source": "raw-content"
+      },
+      "pdf_url": "/vela/bucket/bucket/sheet-1758979115026341000.pdf"
+    }
+  },
+  "sheet-1758983841334195000": {
+    "id": "sheet-1758983841334195000",
+    "user_id": "Nadhila",
+    "prompt": "{\"subject\":\"Physics IGCSE Lesson 1\",\"course\":\"IGCSE Physics: Mechanics and Motion\",\"description\":\"Make a paper on the first unit of pearson's IGCSE edexcel Curriculum.\",\"tags\":[\"physics\",\" IGCSE\",\" mechanics\",\" motion\",\" edexcel\",\" curriculum\"],\"curriculum\":\"Use the pearson's edexcel Curiculum.\",\"specialInstructions\":\"non\"}",
+    "status": "completed",
+    "created_at": "2025-09-27T20:07:21.335133+05:30",
+    "updated_at": "2025-09-27T20:08:47.989594+05:30",
+    "connection_created": "2025-09-27T20:07:21.335133+05:30",
+    "retries": 1,
+    "max_retry": 3,
+    "result": {
+      "metadata": {
+        "generated": "2025-09-27T20:08:09+05:30",
+        "source": "raw-content"
+      },
+      "pdf_url": "/vela/bucket/bucket/sheet-1758983841334195000.pdf"
+    }
+  },
+  "sheet-1759018773909212000": {
+    "id": "sheet-1759018773909212000",
+    "user_id": "Nadhila",
+    "prompt": "{\"subject\":\"Language And structure and literally devices in pearson's edexcel IGCSE\",\"course\":\"IGCSE English Language: Analyzing Literary Devices and Textual Structure\",\"description\":\"This IGCSE English Language course focuses on developing your skills in analyzing literary devices and understanding textual structure. You will learn how to identify and interpret various literary techniques used in different types of texts, as well as how to analyze the way texts are organized and how that impacts meaning. This course will prepare you for success in your IGCSE English Language exams.\",\"tags\":[\"IGCSE English Language\",\" literary devices\",\" textual structure\",\" analysis\",\" Edexcel\",\" language\",\" literature\"],\"curriculum\":\"Pearson's Edexcel IGCSE\",\"specialInstructions\":\"non\"}",
+    "status": "completed",
+    "created_at": "2025-09-28T05:49:33.909497+05:30",
+    "updated_at": "2025-09-28T05:50:28.481638+05:30",
+    "connection_created": "2025-09-28T05:49:33.909497+05:30",
+    "retries": 1,
+    "max_retry": 3,
+    "result": {
+      "metadata": {
+        "generated": "2025-09-28T05:50:26+05:30",
+        "source": "raw-content"
+      },
+      "pdf_url": "/vela/bucket/bucket/sheet-1759018773909212000.pdf"
+    }
+  }
+}

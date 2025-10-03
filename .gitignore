@@ -1,6 +1,13 @@
 # Node modules
 node_modules/
 
+# storage and etc
+zp-database
+generated
+storage
+set.json 
+# No settings file is sent to git
+
 # Dependency directories
 bower_components/
 jspm_packages/

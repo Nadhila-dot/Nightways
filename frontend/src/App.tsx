@@ -1,57 +1,50 @@
-import { BrowserRouter as Router, Routes, Route, Link, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link, useLocation, RouterProvider } from "react-router-dom";
 import CountBtn from "@/components/count-btn";
 import ReactSVG from "@/assets/react.svg";
 import { Badge } from "@/components/ui/badge";
 import { NotFound } from "./components/ScreenBlock";
+import { HomeContainer } from "./containers/index/container";
+import { LoginContainer } from "./containers/login/loginContainer";
+import { Suspense, useEffect } from "react";
+import JsonResponse from "./json/json-route";
+import { RouterIcon } from "lucide-react";
 
-function Home() {
-  return (
-    <main className="flex flex-col items-center justify-center h-screen">
-      <div className="flex flex-col items-center gap-y-4">
-        <div className="inline-flex items-center gap-x-4">
-          <img src={ReactSVG} alt="React Logo" className="w-32" />
-          <span className="text-6xl">+</span>
-          <img src={"/vite.svg"} alt="Vite Logo" className="w-32" />
-        </div>
-        <a
-          href="https://ui.shadcn.com"
-          rel="noopener noreferrer nofollow"
-          target="_blank"
-        >
-          <Badge variant="outline">shadcn/ui</Badge>
-        </a>
-        <CountBtn />
-      </div>
-    </main>
-  );
-}
+import { createBrowserRouter} from "react-router-dom";
+import Sidebar from "./components/Sidebar/Sidebar";
+import { useAuth } from "./hooks/auth/checkAuth";
 
-function About() {
-  return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <h1 className="text-4xl mb-4">About Page</h1>
-      <Link to="/" className="text-blue-500 underline">Go Home</Link>
-    </div>
-  );
-}
+import InvalidSessionModal from "./containers/session/Invalid";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { useSearch } from "./hooks/search/useSearch";
+import { useSystemStore } from './state/system';
+import { Toaster } from "./components/ui/sonner";
+import { NotificationListener } from "./components/Notification/handle";
 
 
 function App() {
-
+  const isAuthenticated = useAuth();
+  const queryClient = new QueryClient();
+  const sessionId = localStorage.getItem("session") || ""; // Or get from your auth system
 
   return (
-    <Router>
-      <nav className="absolute top-4 left-4">
-        <Link to="/" className="mr-4">Home</Link>
-        <Link to="/about">About</Link>
-      </nav>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        {/*//@ts-ignore */}
-        <Route path="*" element={<NotFound path={window.location.pathname} />} />
-      </Routes>
-    </Router>
+    <QueryClientProvider client={queryClient}>
+      <Router>
+        <Toaster position="bottom-right" />
+        <NotificationListener sessionId={sessionId} />
+        {!(window.location.pathname.startsWith("/auth") || window.location.pathname.startsWith("/index")) && (
+          <Sidebar isAuthenticated={isAuthenticated} />
+        )}
+        {!isAuthenticated &&
+          !window.location.pathname.startsWith("/auth") &&
+          !window.location.pathname.startsWith("/index") && (
+            <InvalidSessionModal />
+        )}
+        <Routes>
+          <Route path="/auth/login" element={<LoginContainer />} />
+        </Routes>
+        
+      </Router>
+    </QueryClientProvider>
   );
 }
 
